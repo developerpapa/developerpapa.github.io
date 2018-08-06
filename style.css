@@ -1,0 +1,38 @@
+
+
+body {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+	align-content: space-around;
+	background-image: url("backgroundimage.jpg");
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: white;
+	margin: 5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+button {
+
+	width: 200px;
+	align-self: center;
+	text-transform: uppercase;
+}
+
+.btn, .btn:hover {
+	border: 0px;
+	background-color: #B62711;
+	border-radius: 20px;
+	font-weight: bold;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: white;
+}
